@@ -1,0 +1,7 @@
+.credit-application-container { max-width: 800px; margin: auto; padding: 20px; }
+.credit-application-grid { display: grid; grid-template-columns: repeat(12, 1fr); gap: 1rem; }
+.credit-application-field { display: flex; flex-direction: column; }
+.credit-application-input-row { display: flex; align-items: center; gap: 4px; }
+.credit-application-error { color: red; font-size: 0.8rem; }
+.credit-application-nav { margin-top: 2rem; display: flex; gap: 1rem; }
+@media (max-width: 600px) { .credit-application-field { grid-column: 1 / span 12 !important; } }
